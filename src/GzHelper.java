@@ -10,7 +10,7 @@ import java.util.zip.GZIPInputStream;
 public class GzHelper {
 
 	public static void main(String[] args) throws FileNotFoundException, IOException{
-		String pathname = "C:/Users/Administrator/Desktop/2017翼起成长/数据源/";
+		String pathname = "D:/dpidataset/";
 		String file="3G.gz";
 		File fileName = new File(pathname+file);
 		BufferedReader reader = new BufferedReader(
